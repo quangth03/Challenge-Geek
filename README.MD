@@ -1,48 +1,42 @@
 # challenge_geek
 
-<div align="center" style="margin: 30px;">
-    <a href="https://refine.dev">
-    <img alt="refine logo" src="https://refine.ams3.cdn.digitaloceanspaces.com/readme/refine-readme-banner.png">
-    </a>
-</div>
-<br/>
+Ứng dụng web demo quản lý dữ liệu người dùng, album và ảnh sử dụng [Refine](https://refine.dev/) và [JSONPlaceholder](https://jsonplaceholder.typicode.com/).
 
-This [Refine](https://github.com/refinedev/refine) project was generated with [create refine-app](https://github.com/refinedev/refine/tree/master/packages/create-refine-app).
+---
 
-## Getting Started
+## 🚀 Tính năng
 
-A React Framework for building internal tools, admin panels, dashboards & B2B apps with unmatched flexibility ✨
+- Xem chi tiết người dùng cùng danh sách album.
+- Xem chi tiết album và hình ảnh.
+- Giao diện bảng và thẻ đẹp mắt với Ant Design.
+- Thao tác gọi API tự động với React Query thông qua Refine.
+- Command palette (`Cmd + K` / `Ctrl + K`) hỗ trợ thao tác nhanh.
 
-Refine's hooks and components simplifies the development process and eliminates the repetitive tasks by providing industry-standard solutions for crucial aspects of a project, including authentication, access control, routing, networking, state management, and i18n.
+---
 
-## Available Scripts
+## 📦 Yêu cầu
 
-### Running the development server.
+- Node.js >= 16
+- Yarn hoặc npm
 
-```bash
-    npm run dev
-```
+---
 
-### Building for production.
+## 🛠️ Cài đặt
 
 ```bash
-    npm run build
+# Clone repo
+git clone https://github.com/quangth03/Challenge-Geek.git
+cd your-project
+
+# Cài thư viện
+npm install
+# hoặc
+yarn install
+
+# Chạy dự án
+npm run dev
+# hoặc
+yarn dev
+
+#Mở trình duyệt tại: http://localhost:5173
 ```
-
-### Running the production server.
-
-```bash
-    npm run start
-```
-
-## Learn More
-
-To learn more about **Refine**, please check out the [Documentation](https://refine.dev/docs)
-
-- **REST Data Provider** [Docs](https://refine.dev/docs/core/providers/data-provider/#overview)
-- **Ant Design** [Docs](https://refine.dev/docs/ui-frameworks/antd/tutorial/)
-- **React Router** [Docs](https://refine.dev/docs/core/providers/router-provider/)
-
-## License
-
-MIT
